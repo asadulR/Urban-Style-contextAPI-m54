@@ -55,7 +55,7 @@ const Home = () => {
             <div className="cart-container col-span-2">
                 <h2 className='text-lg text-sky-600 mb-6 text-center font-semibold'>Items Selected: {cart.length}</h2>
 
-                {command}
+                
                 {
                     cart.map(tShirt => <Cart
                         cart={tShirt}
@@ -63,6 +63,10 @@ const Home = () => {
                         handleRemoveFromCart={handleRemoveFromCart}
                     ></Cart>)
                 }
+
+                    {command}
+                    {/* use of ternary operator/ conditional rendaring */}
+                    {cart.length !== 5 ? <p></p>: <p className='text-center my-5'><button className='bg-sky-300 py-1 px-3 rounded-full hover:rounded-none hover:text-red-500 hover:font-semibold'>Remove All</button></p>}
             </div>
         </div>
     );
