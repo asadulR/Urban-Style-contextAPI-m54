@@ -1,6 +1,9 @@
 import React from 'react';
 
 const Cart = ({cart, handleRemoveFromCart}) => {
+
+
+    
     return (
         <div className='flex items-center py-4 flex-wrap justify-between'>
             <div>{cart.name}</div>

@@ -27,6 +27,20 @@ const Home = () => {
 
         setCart(rest);
     }
+
+
+// conditional rendering / element variable
+
+    let command;
+    if(cart.length === 0){
+        command = <p>Please Add at least one item!!</p>
+    }
+    else if(cart.length === 1){
+        command = <p>Please Add more...</p>
+    }
+    else{
+        command = <p>Thanks for adding items!</p>
+    }
     return (
         <div className='grid py-10 grid-cols-6 gap-4 container mx-auto'>
             <div className="justify-items-center col-span-4 t-shirt-container grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -40,6 +54,8 @@ const Home = () => {
             </div>
             <div className="cart-container col-span-2">
                 <h2 className='text-lg text-sky-600 mb-6 text-center font-semibold'>Items Selected: {cart.length}</h2>
+
+                {command}
                 {
                     cart.map(tShirt => <Cart
                         cart={tShirt}
