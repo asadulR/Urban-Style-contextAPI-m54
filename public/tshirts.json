@@ -1,0 +1,90 @@
+[
+  {
+    "_id": "623853b2614ad5aba311fdd1",
+    "index": 0,
+    "price": 14,
+    "picture": "https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/10862262/2020/6/17/b27dbe74-a154-4f0e-93ce-57a819c5b2821592386647823-Nautica-Men-Maroon-Solid-Polo-Collar-T-shirt-325159238664605-1.jpg",
+    "name": "Just Chill",
+    "gender": "Just Chill"
+  },
+  {
+    "_id": "623853b2578e9e6ad1ae0dd5",
+    "index": 1,
+    "picture": "https://render.fineartamerica.com/images/rendered/default/t-shirt/23/30/images/artworkimages/medium/1/coffee-coding-syntax-aadil-farooq-transparent.png?targetx=0&targety=0&imagewidth=430&imageheight=516&modelwidth=430&modelheight=575",
+    "name": "Keep Coding",
+    "price": 27,
+    "gender": "Keep Coding"
+  },
+  {
+    "_id": "623853b21fb149d2ee7b76c7",
+    "index": 2,
+    "picture": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8dCUyMHNoaXJ0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+    "name": "Black",
+    "price": 24,
+    "gender": ""
+  },
+  {
+    "_id": "623853b2e91c8de578c9245e",
+    "index": 3,
+    "picture": "https://5.imimg.com/data5/SH/GC/MY-8764775/mens-t-shirt-500x500.jpg",
+    "name": "Mix Yellow",
+    "price": 14,
+    "gender": "Mix Yellow"
+  },
+  {
+    "_id": "623853b2239582e48409ccc6",
+    "index": 4,
+    "price": 34,
+    "picture": "https://www.billbazar.com.bd/public/uploads/all/8hgD0lQGODVXbB5sokhvwr7mUNjBx7pEHusuyGZj.webp",
+    "name": "Bachelor",
+    "gender": "male"
+  },
+  {
+    "_id": "623853b2cdda0d5bc294f791",
+    "index": 5,
+    "picture": "https://m.media-amazon.com/images/I/61GMJ+3ekAS._AC_UL320_.jpg",
+    "name": "Right Price",
+    "price": 141,
+    "gender": "male"
+  },
+  {
+    "_id": "6238cdda0d5bc294f791",
+    "index": 5,
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQXsqbNGgwqerwReB_n3Fzk6XLc4e32kbbJw&usqp=CAU",
+    "name": "Black and Red",
+    "price": 130,
+    "gender": "male"
+  },
+  {
+    "_id": "6234562cdda0d5bc294f791",
+    "index": 5,
+    "picture": "https://cdn.shopify.com/s/files/1/0070/7032/files/tshirt-business8-min_838a2996-f195-4c1d-a4d1-034bc0a9a095.jpg?v=1597402071",
+    "name": "Keep Calm",
+    "price": 171,
+    "gender": "male"
+  },
+  {
+    "_id": "623853b2cdda0d5bc294f7919876",
+    "index": 5,
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5IORb5jfpc8RyJb7Yd_tvjWRWk8iLgrR-7A&usqp=CAU",
+    "name": "Urban Lady",
+    "price": 191,
+    "gender": "male"
+  },
+  {
+    "_id": "6da0d5bc294f791",
+    "index": 5,
+    "picture": "https://cf.shopee.in/file/68ea5a1636338410d7067ed093d632cc",
+    "name": "Mango Love",
+    "price": 160,
+    "gender": "male"
+  },
+  {
+    "_id": "623853b2736f19fd4eb8d44a",
+    "index": 6,
+    "price": 41,
+    "picture": "https://rukminim2.flixcart.com/image/332/398/kkfrjww0/t-shirt/h/1/t/l-t312-cgblwh-new-eyebogler-original-imafzs5hrjgzsfpr.jpeg?q=50",
+    "name": "Black Skull",
+    "gender": "female"
+  }
+]
