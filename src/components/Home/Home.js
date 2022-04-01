@@ -42,8 +42,8 @@ const Home = () => {
         command = <p>Thanks for adding items!</p>
     }
     return (
-        <div className='grid py-10 grid-cols-6 gap-4 container mx-auto'>
-            <div className="justify-items-center col-span-4 t-shirt-container grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className='grid py-10 grid-cols-8 gap-4 container mx-auto'>
+            <div className="justify-items-center col-span-5 md:col-span-6 t-shirt-container grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {
                     tShirts.map(tShirt => <TShirt
                         key={tShirt._id}
@@ -52,7 +52,7 @@ const Home = () => {
                     ></TShirt>)
                 }
             </div>
-            <div className="cart-container col-span-2">
+            <div className="cart-container col-span-3 md:col-span-2">
                 <h2 className='text-lg text-sky-600 mb-6 text-center font-semibold'>Items Selected: {cart.length}</h2>
 
                 
