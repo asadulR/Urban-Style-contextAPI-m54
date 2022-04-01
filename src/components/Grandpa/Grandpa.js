@@ -8,6 +8,13 @@ import Uncle from '../Uncle/Uncle';
 
 
 // context api 
+// 1. call createContext with a default value
+// 2. set a variable of the context with uppercase
+// 3. make sure you export the context to use it other places
+// 4. wrap your child content using context.provider
+// 5. provide a value
+// 6. To consume the context from child component 
+// 7. useContext hook and you will need to pass the contextname
 export const RingContext = createContext('Diamond Ring');
 
 const Grandpa = () => {
